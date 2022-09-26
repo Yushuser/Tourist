@@ -13,6 +13,8 @@
 		397DDB6D28E2304B00551B23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397DDB6B28E2304B00551B23 /* Main.storyboard */; };
 		397DDB6F28E2304C00551B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 397DDB6E28E2304C00551B23 /* Assets.xcassets */; };
 		397DDB7228E2304C00551B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 397DDB7028E2304C00551B23 /* LaunchScreen.storyboard */; };
+		397DDB7B28E2337200551B23 /* TouristTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397DDB7928E2337200551B23 /* TouristTableViewCell.swift */; };
+		397DDB7C28E2337200551B23 /* TouristTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 397DDB7A28E2337200551B23 /* TouristTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		397DDB6E28E2304C00551B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		397DDB7128E2304C00551B23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		397DDB7328E2304C00551B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		397DDB7928E2337200551B23 /* TouristTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristTableViewCell.swift; sourceTree = "<group>"; };
+		397DDB7A28E2337200551B23 /* TouristTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TouristTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				397DDB6E28E2304C00551B23 /* Assets.xcassets */,
 				397DDB7028E2304C00551B23 /* LaunchScreen.storyboard */,
 				397DDB7328E2304C00551B23 /* Info.plist */,
+				397DDB7928E2337200551B23 /* TouristTableViewCell.swift */,
+				397DDB7A28E2337200551B23 /* TouristTableViewCell.xib */,
 			);
 			path = Tourist;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				397DDB7228E2304C00551B23 /* LaunchScreen.storyboard in Resources */,
 				397DDB6F28E2304C00551B23 /* Assets.xcassets in Resources */,
+				397DDB7C28E2337200551B23 /* TouristTableViewCell.xib in Resources */,
 				397DDB6D28E2304B00551B23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				397DDB6A28E2304B00551B23 /* ViewController.swift in Sources */,
 				397DDB6628E2304B00551B23 /* AppDelegate.swift in Sources */,
+				397DDB7B28E2337200551B23 /* TouristTableViewCell.swift in Sources */,
 				397DDB6828E2304B00551B23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
